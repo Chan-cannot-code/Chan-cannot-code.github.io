@@ -1,4 +1,4 @@
-$(document).ready(function() {
+(document).ready(function() {
 	$(".item-list li").mouseenter(function(){  
         $(this).find($('.item-list .hover')).stop(true, true).fadeIn(600);
         return false;
